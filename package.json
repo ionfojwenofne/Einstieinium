@@ -1,0 +1,25 @@
+{
+  "name": "einstienium",
+  "version": "1.0.0",
+  "description": " a school project",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionfojwenofne/Einstieinium.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "me",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ionfojwenofne/Einstieinium/issues"
+  },
+  "homepage": "https://github.com/ionfojwenofne/Einstieinium#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

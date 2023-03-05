@@ -1,0 +1,132 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 30px 0;
+  }
+  
+  /* Font Awesome Icons */
+  i.fas {
+    margin-right: 10px;
+  }
+  /* Link Theme */
+  a {color:dimgray}
+  /* Hover effects */
+  a:hover {
+    color: #2428272d;
+    text-decoration: none;
+  }
+  
+  a:hover i.fas {
+    color: #2428272d;
+  }
+  
+  /* Page specific styles */
+  #element-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #element-info h1 {
+    text-align: center;
+  }
+  
+  #element-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #element-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #element-info p strong {
+    font-weight: bold;
+  }
+  
+  #element-info a {
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  #element-info a:hover {
+    color: #2428272d;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .card-header i {
+    margin-right: 10px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .back-link {
+    float: right;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    padding: 2em;
+    color: #333;
+    transition: color 0.1s;
+  }
+  
+  .back-link:hover {
+    color: #2428272d;
+  }
+  
